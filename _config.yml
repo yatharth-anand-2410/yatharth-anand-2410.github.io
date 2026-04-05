@@ -1,0 +1,47 @@
+title: "Yatharth Anand"
+email: "yatharthanand2410@gmail.com"
+description: >- # this means to ignore newlines until "baseurl:"
+  AI Engineer & ML Researcher. Exploring LLM internals, mechanistic interpretability, 
+  and optimization on Apple Silicon.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yatharth-anand-2410.github.io" # the base hostname & protocol for your site
+github_username: "yatharth-anand-2410"
+twitter_username: "yatharth_anand"
+
+# Build Settings
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Minima settings
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/yatharth-anand-2410" }
+    - { platform: twitter, user_url: "https://twitter.com/yatharth_anand" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/yatharth-anand" }
+
+# Google Analytics (Optional)
+# google_analytics: UA-XXXXX-Y
+
+# Markdown processing
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - .venv
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
