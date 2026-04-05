@@ -1,11 +1,12 @@
 ---
 layout: home
-title: "Yatharth Anand | AI Researcher"
+title: "Yatharth Anand | ML Engineer"
 ---
 
 # Hello, I'm Yatharth. 🚀
 
-I am an **AI Engineer & Machine Learning Researcher** specializing in Large Language Model (LLM) internals, mechanistic interpretability, and low-level optimization. My work focuses on deconstructing the "black box" of neural networks to understand how they reason and where they break.
+I am an **ML Engineer** specializing in Large Language Model (LLM) internals, mechanistic interpretability, and low-level optimization. My work focuses on deconstructing the "black box" of neural networks to understand how they reason and where they break.
+
 
 Currently, I'm deep-diving into **Llama 3** on **Apple Silicon** using the **MLX** framework.
 
